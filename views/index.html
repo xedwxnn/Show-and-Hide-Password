@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show/Hide Password</title>
@@ -10,7 +9,11 @@
     <script src="/script/main.js" defer></script>
     <link rel="icon" href="/assets/icon/lock-icon.png">
 </head>
+
 <body>
-    <input type="password" placeholder="Write your password" id="passwordInput"><img src="/assets/images/lock-icon.png" id="ImageInput"></img>
+    <div class="input-container">
+        <input type="password" placeholder="Write your password" id="passwordInput">
+        <img src="/assets/images/lock-icon.png" id="ImageInput" alt="Eye Icon">
+    </div>
 </body>
 </html>
