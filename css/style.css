@@ -16,8 +16,8 @@ input {
     position: absolute;
     border: none;
     user-select: none;
-    width: 280px;
-    height: 40px;
+    width: 320px;
+    height: 60px;
     border: 3px solid black;
     border-radius: 5px;
     outline: none;
@@ -37,9 +37,9 @@ img {
     position: fixed;
     color: black;
     z-index: 1;
-    right: 40.25%;
-    width: 24px;
-    height: 20px;
+    right: 26.5%;
+    width: 32px;
+    height: 28px;
 }
 
 img:hover {
