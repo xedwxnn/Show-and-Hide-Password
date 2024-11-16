@@ -17,7 +17,6 @@ body {
 }
 
 input {
-    position: relative;
     border: none;
     width: 320px;
     height: 60px;
@@ -25,7 +24,8 @@ input {
     border-radius: 5px;
     outline: none;
     padding-left: 16px;
-    font-size: 30px;
+    padding-right: 58px;
+    font-size: 26.3px;
 }
 
 input::placeholder {
@@ -39,9 +39,11 @@ input:focus::placeholder, input:hover::placeholder {
 
 img {
     position: absolute;
-    right: 200px;
+    right: 540px;
     width: 32px;
-    height: auto;
+    height: 27px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 img:hover {
